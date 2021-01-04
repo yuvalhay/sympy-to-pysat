@@ -2,7 +2,8 @@ for index in range(len_list):
     list_of_num[index] = symbols('{}'.format(list_of_num[index]))
 
 """
-Before the sympy_to_pysat function we converting the numbers in the list into sympy symbols
+Before the sympy_to_pysat function we converting the numbers in the list into sympy symbols,
+after the conversion we creating a statement by this symbols
 """
 
 
